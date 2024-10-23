@@ -1,0 +1,10 @@
+.headerContainer {
+    display: flex;
+    justify-content: space-around;
+}
+
+@media  (max-width: 767px) {
+    .headerContainer {
+        justify-content: space-evenly;
+    }
+}
