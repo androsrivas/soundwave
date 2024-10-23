@@ -1,0 +1,16 @@
+.navContainer {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    font-size: 70%;
+    .navLink {
+        color: #F2F2F2;
+        background-color: transparent;
+        text-decoration: none;
+    }
+    .navLink:visited {
+        text-decoration: none;
+        background-color: transparent;
+    }
+}
+
