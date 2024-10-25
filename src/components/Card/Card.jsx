@@ -1,11 +1,11 @@
 import Button from "../Button/Button";
 import "./Card.css"
 
-function Card(props) {
+function Card({title, text}) {
   return (
     <div className="cardContainer">
-        <h1>{props.title}</h1>
-        <p>{props.text}</p>
+        <h1 className="title">{title}</h1>
+        <p className="parraf">{text}</p>
         <Button btnText="Join Now"/>
     </div>
   )
