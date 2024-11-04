@@ -1,9 +1,9 @@
 import "./Button.css";
 
-function Button({btnText}) {
+function Button({ btnText }) {
   return (
     <>
-        <button>{btnText}</button>
+        <button>{ btnText }</button>
     </>
   )
 }

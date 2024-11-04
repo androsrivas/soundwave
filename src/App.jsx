@@ -1,11 +1,9 @@
-import Header from "./components/Header/Header";
-import Landing from "./pages/Landing/Landing";
-
+import Landing from "./pages/Landing";
+// import MainDiscover from "./components/organisms/MainDiscover/MainDiscover";
 function App() {
 
   return (
     <>
-      <Header />
       <Landing />
     </>
   )
