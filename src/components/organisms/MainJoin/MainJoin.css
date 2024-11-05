@@ -22,7 +22,7 @@
             }
             input {
                 background-color: transparent;
-                border: solid 1px #2796ff;
+                border: solid 0.5px #2796ff;
                 border-radius: 5px;
                 height: 35px;
             }
