@@ -5,10 +5,10 @@ import "./Landing.css";
 function Landing() {
   return (
     <>
+      <MainLanding />
       <Circle className="circle1"/>
       <Circle className="circle2"/>
       <Circle className="circle3"/>
-      <MainLanding />
     </>
   )
 }

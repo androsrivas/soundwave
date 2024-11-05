@@ -1,5 +1,6 @@
 .circle1, .circle2, .circle3 {
     position: absolute;
+    z-index: -1;
 }
 
 .circle1, .circle2 {
@@ -9,13 +10,13 @@
 }
 
 .circle1 {
-    background-color: rgba(188, 58, 128, 0.2);
+    background-color: rgba(188, 58, 128, 0.1);
     bottom: 150px;
     left: 50px;
 }
 
 .circle2, .circle3 {
-    background-color: rgba(52, 87, 178, 0.2);
+    background-color: rgba(52, 87, 178, 0.1);
 }
 
 .circle2 {

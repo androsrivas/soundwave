@@ -9,9 +9,10 @@ body {
   background-color: #2F303A;
   color: #F2F2F2;
   min-height: 100dvh;
-  max-width: 100%;
+  max-width: 100dvw;
   overflow-x: hidden;
   overflow-y: hidden;
+  
 }
 
 p {

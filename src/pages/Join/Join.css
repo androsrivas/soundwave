@@ -1,5 +1,6 @@
 .circle1, .circle2 {
     position: absolute;
+    z-index: -1;
 }
 
 .circle1 {
