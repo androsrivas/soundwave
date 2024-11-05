@@ -1,5 +1,4 @@
 .mainSection {
-    background-color: transparent;
     display: flex;
     justify-content: center;
     .imageSection, .claimSection {

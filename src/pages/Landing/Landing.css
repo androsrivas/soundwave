@@ -1,0 +1,32 @@
+.circle1, .circle2, .circle3 {
+    position: absolute;
+}
+
+.circle1, .circle2 {
+    width: 350px;
+    height: 350px;
+    border-radius: 100%;
+}
+
+.circle1 {
+    background-color: rgba(188, 58, 128, 0.2);
+    bottom: 150px;
+    left: 50px;
+}
+
+.circle2, .circle3 {
+    background-color: rgba(52, 87, 178, 0.2);
+}
+
+.circle2 {
+    top: 150px;
+    left: 400px;
+}
+
+.circle3 {
+    width: 700px;
+    height: 700px;
+    border-radius: 100%;
+    top: 400px;
+    right: -300px;
+}
