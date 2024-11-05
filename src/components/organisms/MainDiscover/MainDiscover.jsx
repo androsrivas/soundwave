@@ -1,5 +1,6 @@
 import pic from "../../../assets/covers.jpg";
 import IconSection from "../../molecules/IconSection/IconSection";
+import Footer from "../../molecules/Footer/Footer";
 import "./MainDiscover.css";
 
 function MainDiscover() {
@@ -13,6 +14,7 @@ function MainDiscover() {
       <section className="container">
           <img src={ pic } alt="Covers" className="covers"></img>
       </section>
+      <Footer />
     </div>
   )
 }

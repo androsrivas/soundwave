@@ -1,6 +1,6 @@
-import SocialMedia from "../SocialMedia/SocialMedia";
-import twitter from "../../assets/twitter.svg";
-import facebook from "../../assets/facebook.svg";
+import SocialMedia from "../../atoms/SocialMedia/SocialMedia";
+import twitter from "../../../assets/twitter.svg";
+import facebook from "../../../assets/facebook.svg";
 import "./SocialMediaSection.css";
 
 

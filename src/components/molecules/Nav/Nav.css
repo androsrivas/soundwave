@@ -3,5 +3,9 @@
     align-items: center;
     gap: 20px;
     font-size: 70%;
+    .navLink {
+        color: #F2F2F2;
+        text-decoration: none;
+    }
 }
 
