@@ -1,7 +1,9 @@
-.logoContainer {
-    display: flex;
-    align-items: center;
-    gap: 15px;
-    padding: 20px;
-    margin: 10px;
+.logo {
+        display: flex;
+        align-items: center;
+        text-decoration: none;
+        color: #F2F2F2;
+        gap: 15px;
+        padding: 20px;
+        margin: 10px;
 }

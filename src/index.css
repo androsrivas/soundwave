@@ -8,6 +8,7 @@ body {
   font-size: 1.2rem;
   background-color: #2F303A;
   color: #F2F2F2;
+  min-height: 100dvh;
 }
 
 p {

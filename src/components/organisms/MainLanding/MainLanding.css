@@ -2,22 +2,24 @@
     background-color: transparent;
     display: flex;
     justify-content: center;
-    gap: 50px;
-    .img {
-        width: 500px;
-        height: 700px;
-    }
-    .claimSection {
+    .imageSection, .claimSection {
         display: flex;
         flex-direction: column;
         justify-content: center;
-        height: 100dvh;
-        gap: 20px;
+        padding: 50px; 
+    }
+    .imageSection {
+        .img {
+            width: 350px;
+            height: 500px;
+        }
+    }
+    .claimSection {
+        gap: 30px; 
         h1 {
-            font-size: 200%;
+            font-size: 250%;
+            font-weight: 500;
         }
     }
 
 }
-
-

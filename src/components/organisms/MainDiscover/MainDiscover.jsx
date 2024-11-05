@@ -1,20 +1,18 @@
 import pic from "../../../assets/covers.jpg";
 import IconSection from "../../molecules/IconSection/IconSection";
-import Footer from "../../molecules/Footer/Footer";
 import "./MainDiscover.css";
 
 function MainDiscover() {
   return (
     <div className="mainContainer">
-      <section>
+      <section className="claim">
         <h2>Discover new music</h2>
         <IconSection />
         <p>By joining you can benefit by listening to the latest albums released.</p>
       </section>
-      <section className="container">
-          <img src={ pic } alt="Covers" className="covers"></img>
+      <section className="image">
+        <img src={ pic } alt="Covers" className="covers"></img>
       </section>
-      <Footer />
     </div>
   )
 }

@@ -9,7 +9,7 @@ function Footer() {
             <p>About Us</p>
             <p>Contact</p>
         </section>
-        <SocialMediaSection />
+        <SocialMediaSection className="socialMediaSection"/>
     </footer>
   )
 }

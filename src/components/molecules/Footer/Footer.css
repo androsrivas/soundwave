@@ -4,11 +4,21 @@
     gap: 20px;
     padding: 20px;
     font-weight: 500;
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100dvw;
     .infoSection {
         width: 100%;
         padding: 0 120px;
         display: flex;
-        justify-content: space-evenly;
-        gap: 20px;
+        justify-content: center;
+        gap: 30px;
+    }
+    .socialMediaSection {
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        gap: 30px;
     }
 }

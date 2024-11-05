@@ -1,8 +1,8 @@
 import { createBrowserRouter } from "react-router-dom";
 import Layout from "../layouts/Layout";
-import MainLanding from "../components/organisms/MainLanding/MainLanding";
-import MainDiscover from "../components/organisms/MainDiscover/MainDiscover";
-import MainJoin from "../components/organisms/MainJoin/MainJoin";
+import Landing from "../pages/Landing/Landing";
+import Discover from "../pages/Discover/Discover";
+import Join from "../pages/Join/Join";
 
 
 export const router = createBrowserRouter([
@@ -12,15 +12,15 @@ export const router = createBrowserRouter([
         children: [
             {
                 path: "/home",
-                element: <MainLanding />
+                element: <Landing />
             },
             {
                 path: "/discover",
-                element: <MainDiscover />
+                element: <Discover />
             },
             {
                 path: "/join",
-                element: <MainJoin />
+                element: <Join />
             }
         ]
     }
