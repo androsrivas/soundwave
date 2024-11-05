@@ -1,0 +1,34 @@
+.mainContainer {
+    display: flex;
+    justify-content: center;
+    .claim {
+        font-size: 400%;
+        font-weight: 700;
+        span {
+            color: #BC3A80;
+        }
+    }
+    .formSection {
+        background-color: #202027;
+        width: 35%;
+        padding: 50px;
+        border-radius: 20px;
+        .form {
+            display: flex;
+            flex-direction: column;
+            gap: 20px;
+            label {
+                font-weight: 700;
+            }
+            input {
+                background-color: transparent;
+                border: solid 1px #2796ff;
+                border-radius: 5px;
+                height: 35px;
+            }
+            .btn-cta {
+                width: 100%;
+            }
+        }
+    }
+}
