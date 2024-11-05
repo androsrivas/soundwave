@@ -1,8 +1,7 @@
-import "./Circle.css";
 
-function Circle() {
+function Circle({ className }) {
   return (
-    <div className="circle"></div>
+    <div className={ className }></div>
   )
 }
 

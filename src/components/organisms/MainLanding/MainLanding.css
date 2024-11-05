@@ -1,12 +1,23 @@
-.mainContainer {
-    .section1 {
+.mainSection {
+    background-color: transparent;
+    display: flex;
+    justify-content: center;
+    gap: 50px;
+    .img {
+        width: 500px;
+        height: 700px;
+    }
+    .claimSection {
         display: flex;
+        flex-direction: column;
         justify-content: center;
-        gap: 50px;
-        .imgSection {
-            padding: 50px;
-            width: 30%;
+        height: 100dvh;
+        gap: 20px;
+        h1 {
+            font-size: 200%;
         }
     }
+
 }
+
 
