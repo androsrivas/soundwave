@@ -4,16 +4,16 @@ import "./MainLanding.css";
 
 function MainLanding() {
   return (
-  <section className="mainSection">
-    <section className="imageSection">
+  <main className="landing-main-section">
+    <section className="landing-image-section">
       <img className="img" src={ pic } alt="" />
     </section>
-    <section className="claimSection">
+    <section className="landing-claim-section">
       <h1>Feel The Music</h1>
       <p>Stream over 20 thousand songs with one click</p>
       <Button btnText="Join Now!" className="btn-cta"/>
     </section>
-  </section>
+  </main>
   )
 }
 

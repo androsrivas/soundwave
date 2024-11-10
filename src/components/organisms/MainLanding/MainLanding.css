@@ -1,20 +1,20 @@
-.mainSection {
+.landing-main-section {
     display: flex;
     justify-content: center;
     position: fixed;
     bottom: 0%;
     left: 20%;
-    .imageSection, .claimSection {
+    .landing-image-section, .landing-claim-section {
         display: flex;
         flex-direction: column;
     }
-    .imageSection {
+    .landing-image-section {
         .img {
             width: 350px;
             height: 500px;
         }
     }
-    .claimSection {
+    .landing-claim-section {
         padding: 100px;
         gap: 30px; 
         h1 {
@@ -22,5 +22,6 @@
             font-weight: 500;
         }
     }
-
 }
+
+

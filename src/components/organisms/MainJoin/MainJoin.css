@@ -1,16 +1,20 @@
 .mainContainer {
     display: flex;
     justify-content: center;
-    .claim {
-        font-size: 400%;
-        font-weight: 700;
-        span {
-            color: #BC3A80;
+    align-items: center;
+    .claim-section {
+        width: 30%;
+        .claim {
+            font-size: 300%;
+            font-weight: 700;
+            span {
+                color: #BC3A80;
+            }
         }
     }
     .formSection {
         background-color: #202027;
-        width: 35%;
+        width: 30%;
         padding: 50px;
         border-radius: 20px;
         .form {

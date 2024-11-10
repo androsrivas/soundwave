@@ -4,8 +4,8 @@ import "./MainJoin.css";
 function MainJoin() {
   return (
     <div className="mainContainer">
-      <section className="claim">
-        <p>Join the <span>fun.</span></p>
+      <section className="claim-section">
+        <p className="claim">Join the <span>fun.</span></p>
       </section>
       <section className="formSection">
         <form action="#" className="form">
