@@ -6,8 +6,8 @@ import "./Join.css";
 const Join = () => {
   return (
     <>
-        <Circle className="circle1"/>
-        <Circle className="circle2"/>
+        <Circle className="join-circle1"/>
+        <Circle className="join-circle2"/>
         <MainJoin />
         <Footer />
     </>

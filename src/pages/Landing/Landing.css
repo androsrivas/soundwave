@@ -1,30 +1,30 @@
-.circle1, .circle2, .circle3 {
+.lan-circle1, .lan-circle2, .lan-circle3 {
     position: absolute;
     z-index: -1;
 }
 
-.circle1, .circle2 {
+.lan-circle1, .lan-circle2 {
     width: 350px;
     height: 350px;
     border-radius: 100%;
 }
 
-.circle1 {
+.lan-circle1 {
     background-color: rgba(188, 58, 128, 0.1);
     bottom: 150px;
     left: 50px;
 }
 
-.circle2, .circle3 {
+.lan-circle2, .lan-circle3 {
     background-color: rgba(52, 87, 178, 0.1);
 }
 
-.circle2 {
+.lan-circle2 {
     top: 150px;
     left: 400px;
 }
 
-.circle3 {
+.lan-circle3 {
     width: 700px;
     height: 700px;
     border-radius: 100%;

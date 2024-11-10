@@ -1,15 +1,19 @@
 .mainContainer {
     display: flex;
-    justify-content: center;
     align-items: center;
     gap: 50px;
+    width: 80%;
     .claim {
         display: flex;
         flex-direction: column;
         gap: 30px;
         h2 {
-            font-size: 300%;
+            font-size: 100%;
             font-weight: 500;
+        }
+        p {
+            font-size: 30%;
+            font-weight: 400;
         }
     }
     .covers {

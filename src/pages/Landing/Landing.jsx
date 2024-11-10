@@ -6,9 +6,9 @@ function Landing() {
   return (
     <>
       <MainLanding />
-      <Circle className="circle1"/>
-      <Circle className="circle2"/>
-      <Circle className="circle3"/>
+      <Circle className="lan-circle1"/>
+      <Circle className="lan-circle2"/>
+      <Circle className="lan-circle3"/>
     </>
   )
 }
