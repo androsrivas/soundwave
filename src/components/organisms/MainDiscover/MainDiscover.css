@@ -6,11 +6,11 @@
         flex-direction: column;
         gap: 30px;
         h2 {
-            font-size: 100%;
+            font-size: 400%;
             font-weight: 500;
         }
         p {
-            font-size: 30%;
+            font-size: 100%;
             font-weight: 400;
         }
     }
