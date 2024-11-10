@@ -1,8 +1,6 @@
 .mainContainer {
-    display: flex;
-    align-items: center;
     gap: 50px;
-    width: 80%;
+    margin-top: 50px;
     .claim {
         display: flex;
         flex-direction: column;
