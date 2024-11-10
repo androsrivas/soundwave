@@ -1,8 +1,8 @@
-.mainContainer {
+.join-main-container {
     display: flex;
     justify-content: center;
     align-items: center;
-    .claim-section {
+    .join-claim-section {
         width: 30%;
         .claim {
             font-size: 300%;
@@ -12,7 +12,7 @@
             }
         }
     }
-    .formSection {
+    .join-form-section {
         background-color: #202027;
         width: 30%;
         padding: 50px;

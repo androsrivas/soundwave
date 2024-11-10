@@ -3,11 +3,11 @@ import "./MainJoin.css";
 
 function MainJoin() {
   return (
-    <div className="mainContainer">
-      <section className="claim-section">
+    <div className="join-main-container">
+      <section className="join-claim-section">
         <p className="claim">Join the <span>fun.</span></p>
       </section>
-      <section className="formSection">
+      <section className="join-form-section">
         <form action="#" className="form">
           <label htmlFor="name">Name:</label>
           <input type="text" id="name" name="name"/>
