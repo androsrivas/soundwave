@@ -4,10 +4,10 @@ import Header from "../components/molecules/Header/Header";
 
 const Layout = () => {
   return (
-    <>
+    <main className="main">
         <Header />
         <Outlet />
-    </>
+    </main>
   )
 }
 

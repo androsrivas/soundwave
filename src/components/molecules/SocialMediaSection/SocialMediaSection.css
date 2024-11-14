@@ -1,7 +1,12 @@
 .socialMediaSection {
-    /* width: 100%; */
-    /* padding: 0 120px; */
     display: flex;
     justify-content: space-evenly;
     gap: 20px;
 }
+
+/* @media screen and (max-width: 768px) {
+    .socialMediaSection {
+        font-size: 15px;
+        justify-content: space-around;
+    }
+} */

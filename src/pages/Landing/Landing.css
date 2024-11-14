@@ -31,3 +31,27 @@
     top: 400px;
     right: -300px;
 }
+
+@media screen and (max-width: 768px) {
+    .lan-circle1, .lan-circle2 {
+        width: 100px;
+        height: 100px;
+    }
+    .lan-circle3 {
+        width: 200px;
+        height: 200px;
+    }
+
+    .lan-circle1 {
+        bottom: 20px;
+        left: 10px;
+    }
+    .lan-circle2 {
+        top: 100px;
+        left: 70px;
+    }
+    .lan-circle3 {
+        right: -100px;
+        bottom: 0;
+    }
+}
