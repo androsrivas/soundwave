@@ -24,4 +24,23 @@
     }
 }
 
+@media screen and (max-width: 768px) {
+    .landing-main-section {
+        position: static;
+        padding: 20px;
+        margin-top: 150px;
+        .landing-image-section{
+            .img {
+                display: none;
+            }
+        }
+        .landing-claim-section {
+            padding: 15px;
+            gap: 20px;
+        }
+    }
+    
+    
+}
+
 
