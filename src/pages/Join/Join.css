@@ -1,22 +1,41 @@
-.join-circle1, .join-circle2 {
-    position: absolute;
-    z-index: -1;
+.main {
+    height: 100vh;
+    .join-circle1, .join-circle2 {
+        position: absolute;
+        z-index: -1;
+    }
+    
+    .join-circle1 {
+        width: 500px;
+        height: 500px;
+        border-radius: 100%;
+        background-color: rgba(188, 58, 128, 0.1);
+        bottom: -50px;
+        left: -100px;
+    }
+    
+    .join-circle2 {
+        background-color: rgba(52, 87, 178, 0.1);
+        width: 450px;
+        height: 450px;
+        border-radius: 100%;
+        top: -150px;
+        left: 300px;
+    }
 }
 
-.join-circle1 {
-    width: 500px;
-    height: 500px;
-    border-radius: 100%;
-    background-color: rgba(188, 58, 128, 0.1);
-    bottom: -50px;
-    left: -100px;
-}
-
-.join-circle2 {
-    background-color: rgba(52, 87, 178, 0.1);
-    width: 450px;
-    height: 450px;
-    border-radius: 100%;
-    top: -150px;
-    left: 300px;
+@media screen and (max-width: 768px) {
+    .main {
+        height: 100%;
+        .join-circle1 {
+            width: 0;
+            height: 0;
+            bottom: 100px;
+        }
+        .join-circle2 {
+            width: 0;
+            height: 0;
+        }
+    }
+    
 }

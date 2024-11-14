@@ -5,12 +5,12 @@ import "./Join.css";
 
 const Join = () => {
   return (
-    <>
+    <main className="join-main">
         <Circle className="join-circle1"/>
         <Circle className="join-circle2"/>
         <MainJoin />
         <Footer />
-    </>
+    </main>
   )
 }
 
