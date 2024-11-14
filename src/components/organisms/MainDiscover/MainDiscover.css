@@ -23,3 +23,25 @@
 
         }
 }
+
+@media screen and (max-width: 768px) {
+    .discover-main-container {
+        display: flex;
+        flex-direction: column;
+        margin-top: 15px;
+        gap: 5px;
+        padding: 15px;
+        .discover-claim {
+            h2 {
+                font-size: 250%;
+            }
+            p {
+                font-size: 90%; 
+            }
+        }
+        .covers {
+            width: 200px;
+            height: 200px;
+        }
+    }
+}

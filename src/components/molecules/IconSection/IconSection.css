@@ -4,3 +4,9 @@
     padding: 10px;
     font-size: 70%;
 }
+
+@media screen and (max-width: 768px) {
+    .iconSection {
+        padding: 5px;
+    }
+}
