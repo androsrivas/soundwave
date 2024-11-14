@@ -37,3 +37,17 @@
         }
     }
 }
+
+@media screen and (max-width: 768px) {
+    .join-main-container {
+        flex-direction: column;
+        margin-top: 10px;
+        .join-claim-section {
+            width: 200px;
+            margin-left: 0;
+        }
+        .join-form-section {
+            width: 100px;
+        }
+    }
+}
