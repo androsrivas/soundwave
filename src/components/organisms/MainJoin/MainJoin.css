@@ -40,14 +40,16 @@
 
 @media screen and (max-width: 768px) {
     .join-main-container {
+        display: flex;
         flex-direction: column;
-        margin-top: 10px;
+        justify-content: center;
+        gap: 15px;
+        margin-top: 20px;
         .join-claim-section {
-            width: 200px;
-            margin-left: 0;
+            width: 90%;
         }
         .join-form-section {
-            width: 100px;
+            width: 90%;
         }
     }
 }
