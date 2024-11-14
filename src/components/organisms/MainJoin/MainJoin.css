@@ -2,6 +2,7 @@
     display: flex;
     justify-content: center;
     align-items: center;
+    margin-top: 150px;
     .join-claim-section {
         width: 30%;
         .claim {
